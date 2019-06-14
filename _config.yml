@@ -1,0 +1,39 @@
+#
+###################################
+# Site configuration
+##################################
+#
+
+title: Jake Lew
+email: lzh961@gmail.com
+description: zhujiajun's blog,powered by jekyll.
+url: https://makejoyforX.github.io # the base hostname & protocol for your site
+keywords: ["Programming", "Emacs", "Machine Learning","Blog"]
+
+#
+##################################
+# Jekyll configuration
+#################################
+#
+timezone:          Asia/Shanghai
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+####################################
+# Site Owner configuration
+################################3
+#
+owner:
+  name: Jake lew
+  email: lzh961@gmail.com
+  
