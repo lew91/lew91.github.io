@@ -3,4 +3,6 @@
 Gemfile.lock
 *.bak
 *.diff
-_site
+_site/
+_drafts/
+*.swp
