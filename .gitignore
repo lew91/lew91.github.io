@@ -1,0 +1,6 @@
+.DS_Store
+.jekyll-metadata
+Gemfile.lock
+*.bak
+*.diff
+_site/
