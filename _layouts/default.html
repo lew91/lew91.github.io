@@ -7,10 +7,10 @@
    <link href="{{ site.url }}/atom.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
 
    <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+   <link rel="stylesheet" href="{{ site.url }}/css/syntax.css" type="text/css" />
 
    <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="{{ site.url }}/css/screen.css" type="text/css" media="screen, projection" />
 
    <!-- Typekit -->
    <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
@@ -37,25 +37,29 @@ var WRInitTime=(new Date()).getTime();
   <div class="footer">
     <div class="contact">
       <p>
-        Jake Lew
+        &copy; 2019 Jake Lew
         <br />
-        Cofounder of
-        <a href="https://github.com/">GitHub</a>
+        &mdash; Built
+       in <a href="http://www.gnu.org/software/emacs/">Emacs</a>
+       with <a href="http://orgmode.org">Org-mode</a>
+       and <a href="http://github.com/mojombo/jekyll">Jekyll</a>
         <br />
         lzh961@gmail.com
       </p>
     </div>
     <div class="contact">
       <p>
+        Contact me @
+        <br />
         <a href="http://github.com/makejoyforX/">github.com/makejoyforX</a><br />
         <a href="https://www.douban.com/people/45629936/">douban main page</a><br />
       </p>
     </div>
-    <!-- <div class="rss"> -->
-    <!--   <\!-- <a href="{{ site.url }}/atom.xml" rel="alternate" type="application/atom+xml"> -\-> -->
-    <!--     <img src="/images/rss.png" alt="Subscribe to RSS Feed" /> -->
-    <!--   </a> -->
-    <!-- </div> -->
+    <div class="rss">
+      <a href="{{ site.url }}/atom.xml" />
+        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
   </div>
 </div>
 
