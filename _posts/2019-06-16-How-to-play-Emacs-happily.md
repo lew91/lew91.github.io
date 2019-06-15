@@ -6,7 +6,6 @@ categories: [Emacs,Blog]
 {{ page.title }}
 ==================
 <p class="meta">16 Jun 2019</p>
-# Table of Contents
 
 
 
@@ -19,6 +18,7 @@ of Emacs has been repeated, given up for a while, and then picked up. Maybe it�
 as a summary of myself.
 
 **Why give up and then pick it up?**
+
 As well known, use Emacs can speed lots of time to config it. Learning Emacs costs so high, even in china there has
 such a saying "Vim is the  god of editor and Emacs is a god's editor". Even if you hear such a statement, you will
  smile. But this reflects the fact that learning both editors is not easy.
@@ -34,6 +34,7 @@ imagination.The Emacs community is where hackers gather to learn a variety of th
 source community and the brainchild of the world's top hackers. So learning Emacs is a step closer to the top.
 
 **How learning Emacs smoothly**
+
 Firstly，we should understand the order of Emacs loading files. When Emacs is started, it normally tries to load a
 lisp program from an initialization file, or init file for short.This file, if it exists, specifies how to initialize
 Emacs for you. Emacs looks for your init file using the filenames '~/.emacs', '~/.emacs.el', or '~/.emacs.d/init.el'.
@@ -51,6 +52,7 @@ directory, Once a file or plugin goes wrong, we can temporarily remove the folde
     (add-subdirs-to-load-path "~/.emacs./XXXX")
 
 **How install packages**
+
 There has some ways to install packages, use 'package.el','use-packages' macro package, or even install package manually.
 Here is my example to install some packages. I use this, because I found it's easily to control which packages install and
 uninstall without hide much more details.
@@ -74,6 +76,7 @@ uninstall without hide much more details.
             mypackages)
 
 **How bindding keys in different platform**
+
 In Mac OS i want change the default Meta and Option key, and In Windows i want use the Win key as super key. here is the
 code.
 
@@ -114,6 +117,7 @@ For converniecnce, there are also two standard functions for undbinding from the
 Those ones are interactive commands, as per their respective complemets *global-set-key* and *local-set-key*
 
 **How to find BUG or config wrong setting in configuration files**
+
 Sometimes, there  appear some errors in our Emacs configuration files.We can start Emac with the following shell command，to find
 error message.
 
@@ -135,6 +139,7 @@ ability is a little bit more enthusiastic masters are willing to help, do not be
 are facing the world's top players.
 
 **What's the Next**
+
 After config Emacs basically. It is time to start learning Emacs-lisp and some complex plugins.First familiar with the
 shortcuts for Emacs operations. Read Emacs-lisp reference manual to familiar with the Emacs-lisp programming language.
 Install some complex plugins, try to config it and modify it, fix bug in your config files. Make some interesting wheels.
@@ -144,4 +149,3 @@ familiar, you will find that the only difference between all plugins is the diff
 Something that can't be written. At this stage, the only thing that allows you to learn more is to go to IRC #emacs and talk
 to some old hackers, or go to GitHub Emacser. Learn C language, and use C or Elisp to contribute to the underlying Emacs
 directly in your spare time.
-
