@@ -41,3 +41,7 @@ owner:
 feed:
   path: atom.xml
 
+# sitemap
+  plugins:
+      - jekll-sitemap
+
