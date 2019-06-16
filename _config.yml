@@ -6,9 +6,8 @@
 
 title: Jake Lew
 email: lzh961@gmail.com
-description: Jake Lew's blog,powered by jekyll.
-url: https://makejoyforX.github.io # the base hostname & protocol for your site
-keywords: ["Programming", "Emacs", "Machine Learning","Blog"]
+description: Jake Lew's blog, powered by Jekyll.
+url: https://makejoyforX.github.io
 
 #
 ##################################
@@ -19,7 +18,7 @@ timezone:          Asia/Shanghai
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+permalink:        /blog/:year/:month/:day/:title
 
 kramdown:
   auto_ids: true
@@ -27,21 +26,3 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-
-#
-####################################
-# Site Owner configuration
-################################3
-#
-owner:
-  name: Jake lew
-  email: lzh961@gmail.com
-
-# feed
-feed:
-  path: atom.xml
-
-# sitemap
-  plugins:
-      - jekll-sitemap
-
