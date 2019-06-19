@@ -2,9 +2,7 @@
 layout: post
 title: 使用jekyll + github page 搭建博客手记
 ---
-{{ page.title }}
-==================
-<p class="meta">15 Jun 2019</p>
+
 
 # Table of Contents
 

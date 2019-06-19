@@ -3,9 +3,7 @@ layout: post
 title: How to play Emacs happily
 categories: [Emacs,Blog]
 ---
-{{ page.title }}
-==================
-<p class="meta">16 Jun 2019</p>
+
 
 
 
