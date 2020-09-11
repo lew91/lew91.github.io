@@ -1,4 +1,4 @@
-这是我个人的博客配置，这个配置文件仍然在建设中，不过已经初步可用。传送门 [[https://makejoyforx.github.io][博客Demo]]
+这是我个人的博客配置，这个配置文件仍然在建设中，不过已经初步可用。传送门 [[https://lew91.github.io][blog demo]]
 
 提示：
 +  没有应用流行的Jekyll 主题配置（我喜欢从头开始打造一切）。如果你希望从一个漂亮的主题开始打造您的博客，可以参考这些网站选择：[[http://jekyllthemes.org/][Jekyll主题站Jekyll Themes]], [[https://github.com/jekyll/jekyll/wiki/sites][Jekyll Wiki]]. 或者参考我的博文[[https://makejoyforx.github.io/blog/2019/06/15/%E4%BD%BF%E7%94%A8jekyll+githubpageo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%89%8B%E8%AE%B0][使用jekyll + github page 搭建博客手记]].
